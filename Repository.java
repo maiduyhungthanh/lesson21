@@ -140,7 +140,7 @@ public class Repository {
                       }
                         break;
                     case 2:
-                        System.exit(4);
+                        delete(listProducts);
                         
                 }
             }
@@ -148,6 +148,8 @@ public class Repository {
         if (!checkNum)
             System.out.println("Mã ID không đúng");
     }
+
+  
 
     public void checkSellAmount() {
         Map<String, Long> sell = new HashMap<>();
